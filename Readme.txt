@@ -1,7 +1,7 @@
 1 Abrir o Jmeter.
 2 Baixar pesquisar por webdriver plugin Jmeter
-3 Adcionar usu·rios 
-4 Adcionar elementos de configuraÁ„o -> configuar webdriver
+3 Adcionar usu√°rios 
+4 Adcionar elementos de configura√ß√£o -> configuar webdriver
 5 Adcionar webdriver sampler
 6 Adicionar Ouvintes Arvore ou tabelas.
 7 incrementar codigo JAVA como no exemplo.
@@ -11,7 +11,7 @@
 WDS.sampleResult.sampleStart()
 WDS.browser.get("https://www.google.com/");
 var SearchBox = WDS.browser.findElement(org.openqa.selenium.By.name("q"))
-SearchBox.sendKeys("AutomaÁ„o de teste");
+SearchBox.sendKeys("Automa√ß√£o de teste");
 SearchBox.sendKeys(org.openqa.selenium.Keys.ENTER);
 
 //WDS.browser.findElement(org.openqa.selenium.By.name("q")).clear();
@@ -19,3 +19,6 @@ SearchBox.sendKeys(org.openqa.selenium.Keys.ENTER);
 //WDS.browser.findElement(org.openqa.selenium.By.name("q")).sendKeys(Keys.ENTER);
 
 WDS.sampleResult.sampleEnd()
+
+
+Katalon recorder pode ajudar (ser mais rapido) para a codifica√ß√£o.  
