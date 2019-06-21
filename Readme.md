@@ -1,12 +1,15 @@
-1 Abrir o Jmeter.
-2 Baixar pesquisar por webdriver plugin Jmeter
-3 Adcionar usuários 
-4 Adcionar elementos de configuração -> configuar webdriver
-5 Adcionar webdriver sampler
-6 Adicionar Ouvintes Arvore ou tabelas.
-7 incrementar codigo JAVA como no exemplo.
-8 Rodar testes.
+# Jmeter with Slenium
 
+* 1 Abrir o Jmeter.
+* 2 Baixar pesquisar por webdriver plugin Jmeter
+* 3 Adcionar usuários 
+* 4 Adcionar elementos de configuração -> configuar webdriver
+* 5 Adcionar webdriver sampler
+* 6 Adicionar Ouvintes Arvore ou tabelas.
+* 7 incrementar codigo JAVA como no exemplo.
+* 8 Rodar testes.
+
+#Code Exemple:
 
 WDS.sampleResult.sampleStart()
 WDS.browser.get("https://www.google.com/");
@@ -21,4 +24,5 @@ SearchBox.sendKeys(org.openqa.selenium.Keys.ENTER);
 WDS.sampleResult.sampleEnd()
 
 
-Katalon recorder pode ajudar (ser mais rapido) para a codificação.  
+Katalon can aid you with code.
+ 
